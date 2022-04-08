@@ -26,7 +26,7 @@ nav .nav {
   height: 100vh;
   overflow: hidden;
   margin-top: 100px;
-  background: url(images/New\ folder/pexels-pixabay-458766.jpg);
+  background: url(images/jewellery-ge7e1a2650_1920.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -35,10 +35,11 @@ nav .nav {
 }
 
 .banner-area .left {
+  width: 100%;
   padding: 100px 50px;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to right, rgba(0, 0, 0, .65)40%, rgba(0, 0, 0, .0));
+  background: linear-gradient(to left, rgba(0, 0, 0, .65)30%, rgba(0, 0, 0, .0));
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -48,24 +49,27 @@ nav .nav {
 }
 
 .banner-area .left .text {
+  width: 60%;
+  float: right;
+  overflow: hidden;
   margin: 50px 0;
 }
 
 .banner-area .left h1 {
-  width: 50%;
+  width: 90%;
   color: white;
   text-transform: uppercase;
 }
 
 .banner-area .left p {
   color: white;
-  width: 50%;
+  width: 90%;
   margin-top: 25px;
   text-transform: capitalize;
 }
 
 .banner-area .left a {
-  width: 20%;
+  width: 25%;
   font-size: 20px;
   text-transform: uppercase;
   background-color: #d1b785;
@@ -74,10 +78,11 @@ nav .nav {
   -moz-transition: .4s;
   -ms-transition: .4s;
   -o-transition: .4s;
+  margin-top: 10px;
 }
 
 .banner-area .left a:hover {
-  margin-top: -5px;
+  margin-top: 0px;
 }
 
 /* 
@@ -135,15 +140,33 @@ nav .nav {
   margin-left: -10px;
 }
 
+.nav li:hover a::after {
+  width: 100%;
+}
+
 .nav li {
   position: relative;
+  text-align: left;
+  margin: 0px 5px;
+}
+
+ul ul li a::after {
+  width: none;
 }
 
 .nav li a::after {
   content: "";
-  width: 100%;
+  width: 0%;
   height: 2px;
   background-color: #d1b785;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
 }
 
 .nav li a {
@@ -563,6 +586,58 @@ h3::after {
   margin-top: 300px;
   margin-bottom: 25px;
 }
+
+
+
+
+
+
+.womenPride {
+  padding: 100px 0;
+  background-color: #fff4fd;
+}
+
+.womenPride .left {}
+
+.womenPride .left .left-img {
+  width: 70%;
+  height: 350px;
+  margin: 0 auto;
+  border: 5px solid #d1b785;
+  text-align: center;
+  background-color: #d1b785;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+
+}
+
+.womenPride .left .left-img img {
+  height: 125%;
+  margin-top: -80px;
+
+}
+
+.womenPride .right {}
+
+.womenPride .right h4 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.womenPride .right .right-text {
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
 
 
 
